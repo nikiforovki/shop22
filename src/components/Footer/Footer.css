@@ -1,0 +1,14 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Добавляем это свойство */
+    width: 100%;
+    height: 50px; /* Задаем высоту подвала */
+    background-color: #c4ccd4;
+    padding: 20px;
+    text-align: center;
+   }
+   
+   
+   
