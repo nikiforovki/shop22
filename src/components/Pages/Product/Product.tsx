@@ -85,9 +85,10 @@ export default function Product() {
     ...product,
     quantity: selectedQuantities[index],
   }));
-  localStorage.setItem('selectedProducts', JSON.stringify(order));
-  navigate(`/profile`);
+  const orderString = encodeURIComponent(JSON.stringify(order));
+  navigate(`/profile?orders=${orderString}`);
  };
+ 
  
  
 

@@ -17,12 +17,12 @@
  
    .zakaz {
     text-align: center;
-    /* margin-top: 50px; */
+    margin-top: -450px;
    }
    
 
    .name {
-    margin-top: -490px;
+    margin-top: -15%;
     position: absolute; /* или fixed */
     left: 20px;
    }
@@ -30,8 +30,33 @@
    .button {
     background-color: rgb(70, 69, 69);
     color: white;
-    margin-top: -450px;
+    margin-top: -13%;
     position: absolute; /* или fixed */
     left: 20px;
    }
    
+
+
+
+
+   .orderItem {
+    background-color: #ebecec;
+    padding: 10px;
+    margin-top: 0,5%;
+    margin-bottom: 5px; /* Измененное значение отступа между товарами */
+  }
+  
+  
+  .orderItemMargin {
+    /* margin-bottom: 10px; */
+  }
+
+
+  .buttonDell {
+    background-color: rgb(70, 69, 69);
+    color: white;
+    /* position: absolute; */
+    top: 5%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+  }

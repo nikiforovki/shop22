@@ -36,6 +36,11 @@ const Login: React.FC = () => {
     alert('Неверные учетные данные');
   }
  }
+ 
+ // После успешной аутентификации пользователя
+const handleLogin = (user: User): void => {
+  login(user); // Сохранение уникального идентификатора пользователя
+};
 
  const handleLogout = () => {
   setUser(null);
